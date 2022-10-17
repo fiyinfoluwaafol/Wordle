@@ -12,7 +12,7 @@ secret_word = input("Enter the secret word: ") #Asks user for the secret word to
 for iteration in range(6): #This for loop iterates through this entire block of code 6 times to allow the user have 6 attempts
     if iteration == 0: # Suggestion: Possibly change the temp variable name to current_attempt instead of iteration to make code more readable
         # For the first guess -> there is no need to check for valid guess because there is no subsequent guess to compare with, so first guess cannot use the get_guess() function.
-        guess = input("Enter your guess: \n")
+        guess = input("Enter your guess: \n") ## making minor updat eot comment ot test this feature out
         tries_left -= 1
         if is_game_over(secret_word,guess,tries_left): # Checks to see whether the game is over. If it is over, the user's guess doesn't need to be printed to the screen again in the respective color.
             break
