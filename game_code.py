@@ -10,7 +10,7 @@ The lines of code above import modules for previously defined functions
 tries_left = 6 #the tries_left variable stores the number of attempts the user has left to guess the secret word
 secret_word = input("Enter the secret word: ") #Asks user for the secret word to be guessed
 for iteration in range(6): #This for loop iterates through this entire block of code 6 times to allow the user have 6 attempts
-    if iteration == 0: # Suggestion: Possibly change the temp variable name to current_attempt instead of iteration to make code more readable
+    if iteration == 0: #Suggestion: Possibly change the temp variable name to current_attempt instead of iteration to make code more readable
         # For the first guess -> there is no need to check for valid guess because there is no subsequent guess to compare with, so first guess cannot use the get_guess() function.
         guess = input("Enter your guess: \n") ## making minor updat eot comment ot test this feature out
         tries_left -= 1
