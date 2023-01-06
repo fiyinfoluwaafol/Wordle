@@ -1,3 +1,3 @@
 # Wordle
  CS100 Project 1 - Wordle (Python)
-This is me testing how Github works to upload my code to what is essentially the cloud.
+This is a project for my Intro to Computer Science course, I intedn to expand it as much as possible with the more knowledge and skills I gain.
