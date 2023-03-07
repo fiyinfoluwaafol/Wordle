@@ -29,3 +29,5 @@ for current_attempt in range(1,7): #This for loop iterates through this entire b
         else:
             required_letters = print_guess(secret_word,guess) #Prints the user's guess to the screen and stores the required letters for the next guess in the required_letters variable.
             print("") #Adds a new line to allow for the next text to be printed to the new line.
+
+            #Random test for branching feature of Github
